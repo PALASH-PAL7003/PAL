@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+</head>
+
+<link href="Reviews.css" rel="stylesheet">
+
+<body>
+    
+    <div class="menu">
+        <nav>
+        <div class="menuicon">
+            <button onclick="menuicon()"> 
+            <h1>Menu</h1>
+             <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </button>
+          </div>
+
+        
+            <div class="class">
+        <ul type="nune">
+           <a href="INDEX.html"><li>Home</li></a>
+           <a href="CONTACT.html"><li>Conttact</li></a>
+           <a href="shopping.html"><li>Product</li></a>
+           <a href="Reviews.html"><li>Reviews</li></a>
+           <a href="Thankfulness.html"><li>Thankfulness</li></a>
+        </ul>
+    </div>
+    </nav>
+    </div>
+    <div class="box">
+    <h1> Reviews</h1>
+
+    <form onsubmit="event.preventDefault(); addReview();">
+      <label for="author">Customer / Visiter :</label>
+      <input type="text" id="author" required>
+      <br>
+      <label for="review-text">Review:</label>
+      <br>
+      <textarea id="review-text" required></textarea>
+      <br>
+      <button type="submit">Submit Review</button>
+    </form>
+  
+    <div id="reviews-container"></div>
+</div>
+    <div class="palash">
+        <h3>making by Palash pal <br>contact by-palashpal7003@gmail.com</h3>
+    </div>
+    
+    <script src="Reviews.js"> </script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+.logo{
+    background-color: blanchedalmond;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right{
+    text-align: right;
+    /* height: 10cm; */
+    height: inherit;
+    font-size: xx-large;
+    display: inline-block;
+    padding: 0 0 0 0;
+}
+.name{
+    color: #000000 ;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 0px 0px 0px 1vw;
+}
+.left{
+    padding: 0px 0px 0px 50px;
+    text-align: left;
+    font-size: xx-large;
+    display: inline-block;
+    align-self:flex-end;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    color: white;
+    /* height: 2cm; */
+    width: 100vw;
+    font-size: x-large;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.menu ul li:hover{
+    background-color: crimson;
+    color: #000000;
+    text-decoration-line: underline;
+    text-align: center;
+    transition: 0.8s;
+}
+.menu ul li{
+    display: inline-block;
+    height: 1cm;
+    width: 19vw;
+    padding-left: 10px;
+    padding-top: 1em;
+    color: #fffdfd;
+}
+.home{
+    font-size: x-large;
+    font-style:oblique;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:antiquewhite;
+    padding:5vw 5vh;
+    margin: 1cm;
+    display: inline-block;
+}
+.offer{
+    font-style:oblique;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:antiquewhite;
+    padding:5vw 5vh;
+    margin: 1cm;
+    display: inline-block;
+}
+.img{
+    text-align: center;
+    text-transform: capitalize;
+    background-color:antiquewhite;
+    display: inline-block;
+    padding:5vw 2vh;
+    margin: 1cm;
+}
+.img img{
+    text-align: right;
+    width: 20vw;
+    height: 5cm;
+}
+.sell{
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+    background-color:antiquewhite;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 1cm;
+    margin: 0 0 0 1cm;
+}
+.sell h3{
+    font-size: x-large;
+    font-style:oblique;
+    position: relative;
+    bottom: 1;
+}
+.chois{
+    text-align: right;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+    background-color:antiquewhite;
+    display: inline-block;
+    padding: 1cm;
+    margin :3vw 15vw;
+}
+.about{
+    display: inline-block;
+    height: 2vh;
+    width: 2vw;
+    padding: 0 7vw 0 8vw;
+}
+.about p{
+    text-align: right;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+    background-color:antiquewhite;
+    display: inline-block;
+    margin: 3vh 3vw ;
+    padding: 1px;
+    /* height: 24vh; */
+    width: 20vw;
+}
+.about span{
+    text-align: right;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+    background-color:antiquewhite;
+    display: inline-block;
+    margin: 3vh 3vw ;
+    padding: 1px;
+    display: inline-block;
+    /* height: 6vh; */
+    width: 20vw;
+    position: relative;
+    top:0;
+    right: 2vw;
+}
+@media (max-width: 600px) {
+    .menuicon {
+        /* display: none; */
+      flex-direction: column;
+    }
+  
+    .menuicon {
+      text-align: right;
+    }
+  }
+  .menuicon{
+     flex-direction: column;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 4px;
+  }
+
+  .menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 600px){
+   .menuicon{
+    display: none;
+   } 
+}
+@media (max-width:600px) {
+    .menu ul{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .name{
+        font-display: center;
+        margin: 0;
+        padding: 0;
+        font-size: 20px; 
+        font-family: cursive;
+    }
+}
+@media (max-width: 600px){
+    .about{
+        margin: 0;
+        padding: 0;
+    }
+    .about p{
+        display:none;
+    }
+}
+@media (max-width:600px) {
+    .menu ul li{
+      padding: 10px;
+    }
+}
+.palash{
+    background-color: #000000;
+    width: 99vw;
+    text-align: center;
+    color: white;
+    /* margin: 5px;
+    padding: 5vw; */
+   border-radius : 27px;
+   margin: 0 17px 0 0;
+}

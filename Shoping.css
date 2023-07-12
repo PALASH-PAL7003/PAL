@@ -1,0 +1,284 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    color: white;
+    /* height: 2cm; */
+    width: 100vw;
+    font-size: x-large;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+}
+.menu ul li:hover{
+    background-color: crimson;
+    color: #000000;
+    text-decoration-line: underline;
+    text-align: center;
+    transition: 0.8s;
+}
+.menu ul li{
+    display: inline-block;
+    height: 1cm;
+    width: 19vw;
+    padding-left: 10px;
+    padding-top: 1em;
+    color: #fffdfd;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 600px) {
+    .menuicon {
+        /* display: none; */
+      flex-direction: column;
+    }
+  
+    .menuicon {
+      text-align: right;
+    }
+  }
+  .menuicon{
+     flex-direction: column;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 4px;
+  }
+
+  .menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 600px){
+   .menuicon{
+    display: none;
+   } 
+}
+@media (max-width:600px) {
+    .menu ul{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .name{
+        font-display: center;
+        margin: 0;
+        padding: 0;
+        font-size: 20px; 
+        font-family: cursive;
+    }
+}
+@media (max-width: 600px){
+    .about{
+        margin: 0;
+        padding: 0;
+    }
+    .about p{
+        display:none;
+    }
+}
+@media (max-width:600px) {
+    .menu ul li{
+      padding: 10px;
+    }
+}
+
+.Search{
+    /* border:solid; */
+    display:flex;
+    float: right;
+    padding: 0 3vw 0 0;
+    margin: .5cm;
+    border-radius: 5px;
+    /* font-size: large; */
+}
+.get{
+    background-color:blueviolet;
+    /* /* height: max-content; */
+    display: flow-root; 
+}
+.list ul li{
+    padding: 5px;
+    margin: 2vh;
+    display: inline-block;
+    color:chocolate;
+}
+.list{
+    display: inline-flex;
+}
+.palash{
+    background-color: #000000;
+    width: 99vw;
+    text-align: center;
+    color: white;
+    border-radius : 27px;
+    margin: 0 17px 0 0;
+    /* margin-top: 50vh; */
+    float:inherit;
+}
+.Rice{
+    background-color: blue;
+    /* height: 100vh; */
+}
+.Seeds{
+    background-color: cadetblue;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.Pesticides{
+    background-color: #f4085a;
+    background-size: cover;
+    height: 100vh;
+}
+.Fertilizer{
+    background-color: #10a5e0;
+    /* height: 100vh; */
+    /* display: flex; */
+    background-size: cover;
+}
+@media (max-width: 600px) {
+    .menuicon1 {
+        /* display: none; */
+      flex-direction: column;
+      display:flex;
+    }
+  
+    .menuicon1 {
+      text-align: right;
+    }
+  }
+  .menuicon1{
+     flex-direction: column;
+  cursor: pointer;
+  display: flex;
+  padding: 17px;
+  display: inline-block;
+  width: 7vw;
+  }
+
+  .menu-line1 {
+  width: 25px;
+  height: 3px;
+  background-color: #0af30a;
+  margin-bottom: 4px;
+  display: flex;
+  
+}
+
+@media (min-width: 600px){
+   .menuicon1{
+    display: none;
+   } 
+}
+@media (max-width:600px) {
+    .list ul{
+        display: none;
+    }
+}
+@media (min-width: 600px){
+    .list{
+        float:left;
+    }
+    .Search{
+        font:right;
+    }
+}
+.Fertilizer tr td{
+    width: 100vw;
+    height: 25vw;
+    align-items:center;
+    font-size: xx-large;
+    /* display:inline; */
+}
+.Fertilizer tr td img{
+    margin: 0 0 0 15vw;
+    /* display:inline; */
+}
+.Fertilizer tr td img:hover{
+    box-shadow: 0 2vw 2vw 0 rgba(0, 0.50, 0, 0.50); 
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #fff;
+
+}
+.Fertilizer1{
+    display:none;
+    background-color: #10a5e0;
+    float: center;
+    block-size: cover;
+}
+
+@media (max-width:600px) {
+    .Fertilizer1{
+        display :block;
+    }
+    .Fertilizer1  img:hover{
+        box-shadow: 0 5vw 5vw 0 rgba(0, 0.50, 0, 0.50); 
+        transition: box-shadow 0.3s ease-in-out;
+        background-color: #fff;
+    }
+    .Fertilizer{
+        display:none;
+    }
+    .get{
+        display :none;
+    }
+}
+.Rice{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+.con{
+    color:#f4085a ;
+    background-color: chartreuse;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* height: 5vh; */
+    border-radius: 20px;
+}
+/* seed */
+.Seeds tr td{
+    width: 100vw;
+    height: 25vw;
+    align-items: center;
+    font-size:xx-large;
+}
+.Seeds tr td img {
+    margin: 0 0 0 15vw;
+}
+.Seeds tr td img:hover{
+    box-shadow: 0 2vw 2vw 0 rgba(0,0.50,0,0.50);
+    transform: box-shadow 0.3s ease-in-out;
+    background-color:#fff ;
+    /* background: size 400px 400px 400px 400px; */
+}
+.seed1{
+    display: none;
+    background-color: cadetblue;
+    background-size: cover;
+   
+}
+@media (max-width:600px) {
+    .seed1{
+        display :block;
+        align-items: center;
+        text-align: center;
+        background-color: cadetblue;
+        background-size: cover;
+       font-size: xx-large;
+    }
+    .seed1  img:hover{
+        box-shadow: 0 5vw 5vw 0 rgba(0, 0.50, 0, 0.50); 
+        transition: box-shadow 0.3s ease-in-out;
+        background-color: #fff;
+    }
+    .Seeds{
+        display:none;
+    }
+}

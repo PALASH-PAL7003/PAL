@@ -132,8 +132,8 @@
 }
 .Pesticides{
     background-color: #f4085a;
-    background-size: cover;
-    height: 100vh;
+    /* background-size: cover; */
+    /* height: 100vh; */
 }
 .Fertilizer{
     background-color: #10a5e0;
@@ -232,6 +232,7 @@
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
     color:white;
+    display:none;
 }
 .con{
     color:#f4085a ;
@@ -260,7 +261,7 @@
 }
 .seed1{
     display: none;
-    background-color: cadetblue;
+    background-color: #f4085a;
     background-size: cover;
    
 }
@@ -269,7 +270,7 @@
         display :block;
         align-items: center;
         text-align: center;
-        background-color: cadetblue;
+        background-color: #f4085a;
         background-size: cover;
        font-size: xx-large;
     }
@@ -279,6 +280,49 @@
         background-color: #fff;
     }
     .Seeds{
+        display:none;
+    }
+}
+
+
+/* pesticides */
+.Pesticides tr td{
+    width: 100vw;
+    height: 25vw;
+    align-items: center;
+    font-size:xx-large;
+    color: #fff;
+}
+
+.Pesticides tr td img {
+    margin: 0 0 0 15vw;
+}
+.Pesticides tr td img:hover{
+    box-shadow: 0 2vw 2vw 0 rgba(0,0.50,0,0.50);
+    transform: box-shadow 0.3s ease-in-out;
+    background-color:#fff ;
+    /* background: size 400px 400px 400px 400px; */
+}
+.Pesticides1{
+    display: none;
+    background-color: #f4085a;
+    background-size: cover;  
+}
+@media (max-width:600px) {
+    .Pesticides1{
+        display :block;
+        align-items: center;
+        text-align: center;
+        background-color: #f4085a;
+        background-size: cover;
+       font-size: xx-large;
+    }
+    .Pesticides1  img:hover{
+        box-shadow: 0 5vw 5vw 0 rgba(0, 0.50, 0, 0.50); 
+        transition: box-shadow 0.3s ease-in-out;
+        background-color: #fff;
+    }
+    .Pesticides{
         display:none;
     }
 }

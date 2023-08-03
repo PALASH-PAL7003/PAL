@@ -42,7 +42,7 @@
 h1{
     padding: 6vh 0 0 0;
 }
-.comand{
+ .comand{
         font-size: x-large;
         font-style:oblique;
         text-align: center;
@@ -52,28 +52,18 @@ h1{
         margin: 1cm;
         display: inline-block;
 }
-.phone{
+/* .phone{
     display: inline-block;
     margin: 1cm;
     /* border: 2px solid aqua; */
-    padding: 2vh 0  0 15vw;
+    /* padding: 2vh 0  0 15vw;
 
 }
-.phone:hover::after {
-    content: "Unabal"; 
-    position: static;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:#fffdfd;
-    font-size: 20px;
-    padding: 5px;
-    transition: 0.3s;
-  }
+
   .email{
     display: inline-block;
-    /* margin: 4cm ;
-    border: 2px solid aqua; */
+    /* margin: 4cm ; */
+    /* border: 2px solid aqua;
     padding: 2vh 0 0 15vw;
     margin: 2vw;
 
@@ -91,10 +81,10 @@ h1{
    
   }
   .location{
-    
+     */
     /* margin: 4cm ;
     border: 2px solid aqua; */
-    padding: 2vh 0 0 15vw;
+    /* padding: 2vh 0 0 15vw;
     margin: 1px;
     display: inline-block;
 
@@ -106,10 +96,10 @@ h1{
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     color:#fffdfd;
-    font-size: 20px;
+    font-size: 20px; */
     /* padding: 5px; */
-    transition: 0.3s;
-  }
+    /* transition: 0.3s;
+  }  */
   .foter{
     font-size: x-large;
         font-style:oblique;
@@ -197,3 +187,56 @@ h1{
     border-radius : 27px;
     margin: 0 17px 0 0;
  }
+
+ /* table degine */
+table tr td{
+
+    background-color: cornflowerblue;
+    height: 25vh;
+    width: 50vw;
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+    display: table-cell;
+}
+table{
+    margin: 2vw;
+}
+
+/* hover */
+
+.email_hover:hover::after{
+    content: "subhaspal184@gmail.com"; 
+    position:static;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#ffffff;
+    font-size: 20px;
+    padding: 1px;
+    transition: 0.3s;
+  }
+
+  .phone_hover:hover::after{
+    content: "Unable"; 
+    position:static;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#ffffff;
+    font-size: 20px;
+    padding: 1px;
+    transition: 0.3s;
+  }
+ 
+  .location_hover:hover::after{
+    content: "Pal  fertilizer  Vill:- DOMRA ; Post:-Trilokchandpur ; Dis:- paschim bardhaman ;  West Bengal-713172."; 
+    position: static;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#fffdfd;
+    font-size: 20px; 
+    padding: 5px;
+    transition: 0.3s;
+  }

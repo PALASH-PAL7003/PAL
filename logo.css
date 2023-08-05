@@ -218,3 +218,14 @@
    border-radius : 27px;
    margin: 0 17px 0 0;
 }
+.img img{
+    border-radius: 50%;
+}
+.img img:hover{
+    box-shadow: 0 2vw 2vw 0 rgba(0,0.50,0,0.50);
+    transform: box-shadow 0.3s ease-in-out;
+    background-color:#fff ;
+}
+.img{
+    background-color: #fff;
+}

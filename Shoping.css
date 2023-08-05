@@ -132,7 +132,7 @@
 }
 .Pesticides{
     background-color: #f4085a;
-    /* background-size: cover; */
+    background-size: cover;
     /* height: 100vh; */
 }
 .Fertilizer{
@@ -261,16 +261,15 @@
 }
 .seed1{
     display: none;
-    background-color: #f4085a;
-    background-size: cover;
-   
+    background-color: cadetblue;
+    background-size: cover;   
 }
 @media (max-width:600px) {
     .seed1{
         display :block;
         align-items: center;
         text-align: center;
-        background-color: #f4085a;
+        background-color: cadetblue;
         background-size: cover;
        font-size: xx-large;
     }
@@ -316,6 +315,7 @@
         background-color: #f4085a;
         background-size: cover;
        font-size: xx-large;
+       color:white;
     }
     .Pesticides1  img:hover{
         box-shadow: 0 5vw 5vw 0 rgba(0, 0.50, 0, 0.50); 

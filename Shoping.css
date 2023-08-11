@@ -131,7 +131,7 @@
     /* height: 100vh; */
 }
 .Pesticides{
-    background-color: #f4085a;
+    background-color: #a3116e;
     background-size: cover;
     /* height: 100vh; */
 }
@@ -304,7 +304,7 @@
 }
 .Pesticides1{
     display: none;
-    background-color: #f4085a;
+    background-color: #e008f4;
     background-size: cover;  
 }
 @media (max-width:600px) {
@@ -312,7 +312,7 @@
         display :block;
         align-items: center;
         text-align: center;
-        background-color: #f4085a;
+        background-color: #e008f4;
         background-size: cover;
        font-size: xx-large;
        color:white;
